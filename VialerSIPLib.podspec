@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
 	s.source_files 		= "Pod/Classes/**/*.{h,m}"
 	s.public_header_files   = "Pod/Classes/**/*.h"
-
+	s.static_framework = true
 	s.resource_bundles  = { 'VialerSIPLib' => 'Pod/Resources/*.wav' }
 
 	s.dependency 'Vialer-pjsip-iOS'
